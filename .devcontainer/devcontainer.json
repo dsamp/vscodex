@@ -1,0 +1,10 @@
+{
+  "name": "vscodex",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+    }
+  },
+  "postCreateCommand": "yarn --ignore-engines"
+}
